@@ -13,7 +13,7 @@ function memoized(){
             console.log("calculating....")
           let result=a+10;
             cache[a] = result;
-            return result;
+            return result
         }
     }
 }
