@@ -6,7 +6,7 @@ let counter=0;
 function getData(){
 
   console.log("fetching...",counter++);
-    
+   console.log("it working") 
 }
 
 function debounce(fn,d){
